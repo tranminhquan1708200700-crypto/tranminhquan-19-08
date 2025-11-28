@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanh toán</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">SHOP Trần Quân</div>
+    <nav>
+        <a href="index.html">Trang chủ</a>
+        <a href="products.html">Sản phẩm</a>
+        <a href="cart.html">Giỏ hàng</a>
+        <a href="orders.html">Đơn hàng</a>
+    </nav>
+</header>
+
+<section class="checkout">
+    <h2>Thông tin giao hàng</h2>
+
+    <form action="success.html">
+        <label>Họ và tên</label>
+        <input type="text" required>
+        <label>Số điện thoại</label>
+        <input type="text" required>
+        <label>Địa chỉ nhận hàng</label>
+        <textarea required></textarea>
+
+        <label>Phương thức thanh toán:</label>
+        <select>
+            <option>Thanh toán khi nhận hàng (COD)</option>
+            <option>Chuyển khoản ngân hàng</option>
+            <option>Ví điện tử (Momo, ZaloPay)</option>
+        </select>
+
+        <button type="submit" class="btn" style="margin-top:15px;">Xác nhận đặt hàng</button>
+    </form>
+</section>
+
+<footer><p>© 2025 Trần Quân</p></footer>
+</body>
+</html>
